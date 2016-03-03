@@ -1,0 +1,34 @@
+{
+  "name": "dreamscape-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "latest",
+    "babel-loader": "^6.2.3",
+    "babel-plugin-proxy": "^1.0.6",
+    "babel-plugin-syntax-async-functions": "^6.5.0",
+    "babel-plugin-transform-runtime": "^6.5.2",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-runtime": "latest",
+    "eslint": "latest",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7",
+    "node-libs-browser": "^1.0.0",
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.5.0",
+    "es6-promise": "^3.1.2",
+    "jsonfile": "^2.2.3",
+    "socket.io": "^1.4.5",
+    "whatwg-fetch": "^0.11.0"
+  }
+}

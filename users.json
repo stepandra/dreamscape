@@ -1,0 +1,18 @@
+{
+  "id":1,
+  "name": "Young",
+  "position": 1,
+  "parentId": null,
+  "children": [{
+    "id": 2,
+    "name": "Macdonalds",
+    "position": 2,
+    "parentId": 1,
+    "children": [{
+      "id":3,
+      "name": "Robot",
+      "parentId":2,
+      "position": 3
+    }]
+  }]
+}
